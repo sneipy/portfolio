@@ -1,0 +1,238 @@
+
+body{
+  background-color: #151515;
+}
+#conteiner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#back{
+  position: fixed;
+  width: 100%;
+  height: 635px;
+  background: url(../imgs/developer-3461405_1920.png) no-repeat;
+  background-size: cover;
+  opacity: .1151;
+}
+#box-left{
+  position: relative;
+  width: 70%;
+  height: 635px;
+  float: left;
+  padding: 0px 5px;
+}
+#title-b{
+  position: relative;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#title{
+  color: #ffffff;
+  font-size: 32pt;
+}
+span{
+  font-weight: 800;
+}
+#box-img{
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin-top: 3.5%;
+  margin-left: 3%;
+  float: left;  
+  border-radius: 5px;
+}
+.user-img{
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+#sobre-min{
+  position: relative;
+  width: 700px;
+  height: 300px;
+  margin-top: 2.5%;
+  margin-right: 8px;
+  float: right;
+}
+.title-s{
+  position: relative;
+  width: 100%;
+  height: 30px;
+  color: #ffffff;
+  font-size: 15pt;
+  display: flex;
+  align-items: center;
+}
+.tt-s{
+  margin-left: 7px;
+ 
+}
+.txt{
+  color: #ffffff;
+  text-align: justify;
+  font-size: 10pt;
+  margin: 10px 0px;
+}
+#icons-box{
+  position: absolute;
+  width: 100%;
+  height: 160px;
+  bottom: 2px;
+  right: 0;
+}
+#experiencia{
+  position: relative;
+  width: 100%;
+  height: 160px;
+  padding: 0px 10px;
+}
+.btns{
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+.btn-h{
+  position: relative;
+  padding: 10px 15px;
+  background-color: rgb(51, 179, 196);
+  border-radius: 5px;
+  margin: 5px;
+  float: left;
+  font-size: 10pt;
+  color: #fff;
+}
+.hst{
+  background-color: rgb(187, 174, 0);
+  color: #fff;
+}
+#social{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  bottom: 5px;
+  right: 0;
+}
+.title-i{
+  font-size: 10pt;
+  height: 25px;
+  color: #181818;
+}
+.icons-c{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(177, 14, 9, 0.411);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px #18181877;
+  cursor: pointer;
+}
+.icons{
+  color: rgb(255, 251, 251);
+  font-size: 12pt;
+}
+#box-right{
+  position: relative;
+  width: calc(30% - 10px);
+  height: 635px;
+  background-color:  rgb(255, 255, 255);
+  float: right;
+}
+.nivel-t-b{
+  width: 100%;
+  height: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px 10px 0px
+}
+.title-nivel{
+  font-size: 16pt;
+  color: rgb(66, 66, 66);
+}
+.box-pro{
+  position: relative;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+.progress{
+  position: relative;
+  width: 90%;
+  height: 30px;
+  background-color: rgba(26, 26, 26, 0.534);
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 5px  #0000007c;
+}
+.progress-bar{
+  width: 50%;
+  height: 30px;
+}
+.name-t{
+  position: absolute;
+  font-size: 12px;
+  color: #fff;
+  padding: 0px 10px;
+  left: 10px;
+  text-shadow: 0px 0px 2px #151515;
+}
+.nome-nivel{
+  position: absolute;
+  font-size: 12px;
+  color: #fff;
+  padding: 0px 10px;
+  right: 10px;
+  text-shadow: 0px 0px 2px #151515;
+}
+.html{
+  width: 95%;
+  background-color: #E85C29;
+}
+.css{
+  width: 85%;
+  background-color: #4F98BE;
+}
+.js{
+  width: 70%;
+  background-color: #EFD81D;
+}
+.php{
+  width: 40%;
+  background-color: #858EBB;
+}
+.sql{
+  width: 40%;
+  background-color: #11405D;
+}
+.jquery{
+  width: 75%;
+  background-color: #1D2D39;
+}
+.wordpress{
+  width: 49%;
+  background-color: #424242;
+}
+.corel{
+  width: 68%;
+  background-color: #009100;
+}
+.ps{
+  width: 35%;
+  background-color: #11152F;
+}
+
+/*animações css*/
