@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 900px) {
 body{
   background-color: #151515;
 }
@@ -113,16 +113,12 @@ span{
 }
 #social{
   position: absolute;
-  width: 200px;
+  width: auto;
   height: 40px;
   bottom: 5px;
-  right: 0;
+  right: 15px ;
 }
-.title-i{
-  font-size: 10pt;
-  height: 25px;
-  color: #181818;
-}
+
 .icons-c{
   position: relative;
   width: 40px;
@@ -236,3 +232,4 @@ span{
 }
 
 /*animações css*/
+}
