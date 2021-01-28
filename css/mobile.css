@@ -1,4 +1,4 @@
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 600px) {
   body{
     background-color: #151515;
   }
@@ -88,7 +88,7 @@
   }
   .btn-h{
     position: relative;
-    width: 170px;
+    width: calc(100% / 2 - 10px);
     height: 40px;
     background-color: rgb(51, 179, 196);
     border-radius: 5px;
