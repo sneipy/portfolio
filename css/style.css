@@ -12,8 +12,9 @@ body{
   width: 100%;
   height: 635px;
   background: url(../imgs/developer-3461405_1920.png) no-repeat;
-  background-size: 100% 100%;
+  background-size: 70% 100%;
   opacity: .5151;
+  
 }
 #box-left{
   position: relative;
@@ -21,6 +22,7 @@ body{
   height: 635px;
   float: left;
   padding: 0px 5px;
+  
 }
 #title-b{
   position: relative;
@@ -173,6 +175,11 @@ span{
   overflow: hidden;
   display: flex;
   align-items: center;
+  animation-name: slideWidth;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: .5s;
 }
 .progress-bar{
   width: 50%;
@@ -197,39 +204,154 @@ span{
 .html{
   width: 95%;
   background-color: #E85C29;
+  animation-name: html;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 1.5s;
 }
 .css{
   width: 85%;
   background-color: #4F98BE;
+  animation-name: css;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 1.7s;
 }
 .js{
   width: 72%;
   background-color: #EFD81D;
+  animation-name: js;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 1.9s;
 }
 .php{
   width: 40%;
   background-color: #858EBB;
+  animation-name: php;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 2.1s;
 }
 .sql{
   width: 40%;
   background-color: #11405D;
+  animation-name: sql;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 2.3s;
 }
 .jquery{
   width: 75%;
   background-color: #1D2D39;
+  animation-name: jq;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 2.5s;
 }
 .wordpress{
   width: 49%;
   background-color: #424242;
+  animation-name: wp;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 2.7s;
 }
 .corel{
   width: 68%;
   background-color: #009100;
+  animation-name: corel;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 2.9s;
 }
 .ps{
   width: 35%;
   background-color: #11152F;
+  animation-name: ps;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+  animation-delay: 3.1s;
 }
 
 /*animações css*/
+ @keyframes slideWidth {
+   0%{
+    opacity: 1; 
+   }100%{
+    opacity: 0;
+   }
+ }
+ @keyframes html {
+   0%{
+    width: 95%;
+   }100%{
+    width: 0%;
+   }
+ }
+ @keyframes css {
+  0%{
+   width: 85%;
+  }100%{
+   width: 0%;
+  }
+}
+@keyframes js {
+  0%{
+   width: 72%;
+  }100%{
+   width: 0%;
+  }
+}
+@keyframes php {
+  0%{
+   width: 40%;
+  }100%{
+   width: 0%;
+  }
+}
+@keyframes sql {
+  0%{
+   width: 40%;
+  }100%{
+   width: 0%;
+  }
+}
+@keyframes jq{
+  0%{
+   width: 75%;
+  }100%{
+   width: 0%;
+  }
+}
+@keyframes wp {
+  0%{
+   width: 49%;
+  }100%{
+   width: 0%;
+  }
+}
+@keyframes corel {
+  0%{
+   width: 68%;
+  }100%{
+   width: 0%;
+  }
+}
+@keyframes ps {
+  0%{
+   width: 35%;
+  }100%{
+   width: 0%;
+  }
+}
 }
