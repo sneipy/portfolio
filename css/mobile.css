@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   body{
-    background-color: #000000
+    background-color: #101010
   }
   #conteiner{
     width: 100%;
@@ -10,9 +10,9 @@
     position: fixed;
     width: 100%;
     height: 635px;
-    background: url(../imgs/developer-3461405_1920.png) no-repeat;
+    /* background: url(../imgs/developer-3461405_1920.png) no-repeat;
     background-size: 100% 100%;
-    opacity: .5151;
+    opacity: .5151; */
   }
   #box-left{
     position: relative;
